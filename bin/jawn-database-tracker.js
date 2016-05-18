@@ -1,6 +1,3 @@
-#! /usr/bin/env node
+#! /usr/bin/env node 
 
-if (process.argv[2] === 'commit') {
-  // Rest of code here
-  console.log('Testing...')
-}
+console.log('This is the filesearch script.');
