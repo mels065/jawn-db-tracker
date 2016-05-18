@@ -4,7 +4,7 @@
   "description": "A sample database tracker utility for committing data into jawn and reading it out of jawn feeds",
   "main": "index.js",
   "bin": {
-    "jawn-db-tracker": "./bin/jawn-database-tracker.js"
+    "jawn-db-tracker": "bin/jawn-database-tracker.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
