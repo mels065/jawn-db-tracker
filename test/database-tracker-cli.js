@@ -1,7 +1,7 @@
 const test = require('tape')
 const path = require('path')
 // const spawn = require('tape-spawn')
-const pathToTracker = path.resolve(__dirname + '/../bin/jawn-database-tracker.js')
+const pathToTracker = 'node ' + path.resolve(__dirname + '/../bin/jawn-database-tracker.js')
 
 test('commit accepts --jawn, --feed and --db args', function (t) {
   // var st = spawn(t, 'jawn-database-tracker commit --jawn /path/to/jawn --feed XXX --db /path/to/db')

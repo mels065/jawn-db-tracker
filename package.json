@@ -23,6 +23,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "optimist": "^0.6.1"
+    "optimist": "^0.6.1",
+    "yargs": "^4.7.1"
   }
 }

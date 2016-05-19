@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-argv = require('optimist').argv
+var argv = require('yargs').argv
 
 var jawnPath = argv.jawn
 var feedId = argv.feed
