@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# Temp files
+testFile.sqlite
+
 # Runtime data
 pids
 *.pid
