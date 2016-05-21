@@ -28,8 +28,9 @@
      var tableNumber = tables.length
      currentDb.serialize(function () {
        tables.forEach(function (item, index) {
-         var dformat = js_yyyy_mm_dd_hh_mm_ss(date)
-         var sqlStatement = 'SELECT * FROM ' + item.name + ' WHERE lastUpdate > ' + '\'' + dformat + '\''
+         // var dformat = js_yyyy_mm_dd_hh_mm_ss(date)
+         var dformat = Date.parse(date)
+         var sqlStatement = "SELECT * FROM " + item.name + " WHERE lastUpdate > " + "'" + dformat + "'"
          // var sqlStatement = 'SELECT * FROM ' + item.name
 
          currentDb.all(sqlStatement, [], function (err, rows) {
